@@ -487,7 +487,6 @@ const sentimentAccuracy = {
 
 const distribution = [
   {aspek:"kualitas pelayanan medis dan staf", neg:46, neu:567, pos:1273},
-  {aspek:"lainnya", neg:275, neu:1201, pos:643},
   {aspek:"fasilitas dan infrastruktur", neg:56, neu:229, pos:618},
   {aspek:"waktu tunggu", neg:7, neu:204, pos:50},
   {aspek:"biaya layanan", neg:5, neu:58, pos:23}
@@ -495,7 +494,7 @@ const distribution = [
 
 const cmAspek = {
   labels:["Biaya\nLayanan","Fasilitas &\nInfrastruktur","Kualitas Pelayanan\nMedis & Staf","Waktu\nTunggu"],
-  colLabels:["Biaya\nLayanan","Fasilitas &\nInfrastruktur","Kualitas Pelayanan\nMedis & Staf","Waktu\nTunggu","Lainnya"],
+  colLabels:["Biaya\nLayanan","Fasilitas &\nInfrastruktur","Kualitas Pelayanan\nMedis & Staf","Waktu\nTunggu"],
   matrix:[
     [16,0,0,0,1],
     [0,180,0,1,0],
@@ -520,7 +519,6 @@ const aspekReport = [
   ["biaya layanan", 0.86, 0.95, 0.90, 19],
   ["fasilitas dan infrastruktur", 0.96, 1.00, 0.98, 211],
   ["kualitas pelayanan medis dan staf", 1.00, 1.00, 1.00, 473],
-  ["lainnya", 0.00, 0.00, 0.00, 8],
   ["waktu tunggu", 0.98, 0.97, 0.97, 59]
 ];
 const sentimenReport = [
